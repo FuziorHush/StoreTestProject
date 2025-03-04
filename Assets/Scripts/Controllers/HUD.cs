@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField] private RectTransform touchZone;
     [SerializeField] private Joystick _movementJoystick;
     [SerializeField] private Joystick _lookJoystick;
     [SerializeField] private Button _dropButton;
